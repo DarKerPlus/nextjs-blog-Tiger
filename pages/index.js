@@ -15,7 +15,7 @@ export default function Index({ posts, globalData }) {
       <Header name={globalData.name} />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          'good site tiger'
+          good site tiger
         </h1>
         <ul className="w-full">
           {posts.map((post) => (
