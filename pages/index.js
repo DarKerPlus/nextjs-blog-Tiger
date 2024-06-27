@@ -17,9 +17,7 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           'Tiger'
         </h1>
-    <p className="text-center text-xl text-blue-500 mb-4">
-    这是一个新的段落，Tiger用于测试页面改动效果。
-  </p>
+
         <ul className="w-full">
           {posts.map((post) => (
             <li
